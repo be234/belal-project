@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/belal-project/static/css/main.a617e044.chunk.css",
-    "main.js": "/belal-project/static/js/main.ba34ed3c.chunk.js",
-    "main.js.map": "/belal-project/static/js/main.ba34ed3c.chunk.js.map",
+    "main.css": "/belal-project/static/css/main.ea1455b2.chunk.css",
+    "main.js": "/belal-project/static/js/main.98af0966.chunk.js",
+    "main.js.map": "/belal-project/static/js/main.98af0966.chunk.js.map",
     "runtime-main.js": "/belal-project/static/js/runtime-main.b2b88c46.js",
     "runtime-main.js.map": "/belal-project/static/js/runtime-main.b2b88c46.js.map",
-    "static/js/2.585b1323.chunk.js": "/belal-project/static/js/2.585b1323.chunk.js",
-    "static/js/2.585b1323.chunk.js.map": "/belal-project/static/js/2.585b1323.chunk.js.map",
+    "static/js/2.c150135f.chunk.js": "/belal-project/static/js/2.c150135f.chunk.js",
+    "static/js/2.c150135f.chunk.js.map": "/belal-project/static/js/2.c150135f.chunk.js.map",
     "static/js/3.be96cb0d.chunk.js": "/belal-project/static/js/3.be96cb0d.chunk.js",
     "static/js/3.be96cb0d.chunk.js.map": "/belal-project/static/js/3.be96cb0d.chunk.js.map",
     "index.html": "/belal-project/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/belal-project/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.585b1323.chunk.js.LICENSE.txt": "/belal-project/static/js/2.585b1323.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/belal-project/static/media/logo.6ce24c58.svg"
+    "static/css/main.ea1455b2.chunk.css.map": "/belal-project/static/css/main.ea1455b2.chunk.css.map",
+    "static/js/2.c150135f.chunk.js.LICENSE.txt": "/belal-project/static/js/2.c150135f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b2b88c46.js",
-    "static/js/2.585b1323.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.ba34ed3c.chunk.js"
+    "static/js/2.c150135f.chunk.js",
+    "static/css/main.ea1455b2.chunk.css",
+    "static/js/main.98af0966.chunk.js"
   ]
 }
