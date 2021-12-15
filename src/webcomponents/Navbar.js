@@ -1,6 +1,6 @@
 const Navbar = () => {
     return ( 
-        <nav className="navbar">
+        <nav className="navbar" id="navbar">
         <input type="checkbox" name="" id="check" />
         <label for="check" className="checkbtn">
             <i className="fas fa-bars"></i>
@@ -14,6 +14,5 @@ const Navbar = () => {
         </nav>
     );
 }
- 
  
 export default Navbar;
