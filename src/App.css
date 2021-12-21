@@ -1,6 +1,10 @@
 /* imports */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Raleway:wght@100&display=swap');
 
+/* html */
+html {
+  scroll-behavior: smooth;
+}
 /* body */
 body {
     text-align: center;
@@ -106,16 +110,13 @@ nav ul li a:hover {
       
 }
 
+/* section */
+
 section {
-background-color: lightgray;
-width: 100%;
-height: 600px;
-}
-
-.section2 {
-    margin-top: 55px;
-}
-
+    background-color: lightgray;
+    width: 100%;
+    height: 600px;
+    }
   
 
 /* Section one */
@@ -188,4 +189,152 @@ height: 600px;
 
  }
 
+ /* Section2 */
+
+ .section2 {
+     background-color: white;
+    margin-top: 55px;
+    width: 100%;
+    height: 890px;
+    text-align: center;
+}
+
+.section2 h1 {
+    padding-top: 30px;
+    font-weight: 900;
+    font-size: 28px;
+    border-bottom: solid 3px black;
+    width: 88px;
+    margin: auto;
+}
+
+.flex-container {
+    margin-top: 75px;
+}
+
+.flex-qualities {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 90px;
+}
+
+.quality img{
+    width: 100px;
+}
+
+.quality p {
+    font-size: 12px;
+    margin-top: -8px;
+    width: 230px;
+}
+
+.flex-overview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-overview {
+width: 80%;
+margin: auto;
+}
+
+.flex-overview img {
+    width: 230px;
+}
+
+.flex-overview p {
+    width: 400px;
+    font-size: 15px;
+    margin-top: -10px;
+    margin: auto;
+}
+
+.img-and-text {
+    width: 500px;
+    text-align: center;
+}
+
+/* Skills */
+
+.flex-skills {
+    margin: auto;
+}
+
+        /* Stylingthe last h2 tag by giving margin bottom */
+        .progress-bar-container:not(:last-child) {
+            margin-bottom: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
  
+        /* Styling the h2 tag by giving color,
+        letter spacing, font-size etc.*/
+        .progress-bar-container h2 {
+            color: #666;
+            letter-spacing: 1px;
+            font-size: 15px;
+            padding: 4px 4px 4px 4px;
+        }
+ 
+        /* Styling the border and box
+        effect of the progress bar*/
+        .progress-bar {
+            width: 550px;
+            height: 28px;
+            margin-top: 15px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            background: #eee;
+            font-family: 'Raleway', sans-serif;
+        }
+ 
+        /* Stylingthe background color of each
+        animation and border radius */
+        .percentage {
+            display: block;
+            height: 100%;
+            background-color: #00A1A7;
+            animation: progress 1500ms ease-in-out 1;
+        }
+ 
+        /* Assigning width of each languages*/
+        .html {
+            width: 90%;
+        }
+
+        /* Animating the progress bar by
+        initially starting from 0*/
+        @keyframes progress {
+            from {
+                width: 0;
+            }
+        }
+        
+        .item1 {
+        text-align: center;
+        }
+        
+        .item1 h2 {
+        color: #fff;
+        background: #04C2C9;
+        height: 20px;
+        width: 100px;
+        margin-top: 0px;
+        }
+        
+        .item2 h2 {
+        color: #777;
+        background: #eee;
+        height: 20px;
+        width: 70px;
+        margin-top: 0px;
+        }
+        
+        .item2 {
+        text-align: center;
+        }

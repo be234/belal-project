@@ -6,7 +6,7 @@ const Navbar = () => {
         <label for="check" className="checkbtn">
             <i className="fas fa-bars"></i>
         </label>
-      <ul>
+      <ul  id="section2">
           <li><a href="/" style={{"color": "#D62139"}}>HOME</a></li>
           <li><a herf="/">ABOUT</a></li>
           <li><a href="/sessions">PORTFOLIO</a></li>
