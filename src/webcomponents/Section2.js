@@ -4,6 +4,7 @@ const Section2 = () => {
             <h1>ABOUT</h1>
             <div className="flex-container">
                 <div className="flex-qualities">
+                    <div className="qualities-sub-container">
                     <div className="quality">
                         <img src="https://cdn.shopify.com/s/files/1/2009/8293/products/HG200.jpg?v=1575932424" alt="quality img" />
                         <h3>Responsive</h3>
@@ -14,6 +15,8 @@ const Section2 = () => {
                         <h3>Responsive</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing. </p>
                     </div>
+                    </div>
+                    <div className="qualities-sub-container">
                     <div className="quality">
                         <img src="https://cdn.shopify.com/s/files/1/2009/8293/products/HG200.jpg?v=1575932424" alt="quality img" />
                         <h3>Responsive</h3>
@@ -23,14 +26,17 @@ const Section2 = () => {
                         <img src="https://cdn.shopify.com/s/files/1/2009/8293/products/HG200.jpg?v=1575932424" alt="quality img" />
                         <h3>Responsive</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing. </p>
+                    </div>
                     </div>
                 </div>
                 <div className="flex-overview">
+
                     <div className="img-and-text">
                         <img src="https://www.mandarinstone.com/app/uploads/2020/04/Oska-Navy-Matt-Porcelain-Hexagon-Swatch-Oct-2020.jpg" alt="quality img" />
                         <h3>Who's this guy?</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing. dummy text of the printing. </p>
                     </div>
+
                     <div className="flex-skills">
                         <div class="progress-bar-container">
                         

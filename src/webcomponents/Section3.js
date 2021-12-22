@@ -1,7 +1,7 @@
 const Section3 = () => {
     return ( 
         <section className="section3">
-            <h1>Section3</h1>
+            <h1>Projects</h1>
         </section>
      );
 }
