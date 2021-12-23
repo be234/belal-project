@@ -4,7 +4,7 @@ const Section2 = () => {
             <h1>ABOUT</h1>
             <div className="flex-container">
                 <div className="flex-qualities">
-                    <div className="qualities-sub-container">
+                    <div className="qualities-sub-container"  style={{"margin-bottom": "30px"}}>
                     <div className="quality">
                         <img src="https://cdn.shopify.com/s/files/1/2009/8293/products/HG200.jpg?v=1575932424" alt="quality img" />
                         <h3>Responsive</h3>
