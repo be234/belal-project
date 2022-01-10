@@ -23,7 +23,7 @@ nav {
 
 nav ul {
     float: left;
-    margin-left: 70px;
+    margin-left: 34px;
 }
 
 nav ul li {
@@ -89,7 +89,7 @@ nav ul li a:hover {
 
     nav ul li {
         display: block;
-        margin: 50px 0;
+        margin: 50px 30px;
         line-height: 30px;
     }
 
@@ -201,11 +201,13 @@ section {
 
 .section2 h1 {
     padding-top: 50px;
-    font-weight: 900;
+    color: #444;
+    font-weight: 550;
     font-size: 35px;
-    border-bottom: solid 3px black;
-    width: 110px;
+    border-bottom: solid 4.5px #444;
+    width: 115px;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .flex-container {
@@ -365,10 +367,10 @@ margin: auto;
    
    .section2 h1 {
     padding-top: 58px;
-    font-weight: 900;
+    font-weight: 550;
     font-size: 33px;
-    border-bottom: solid 3px black;
-    width: 106px;
+    border-bottom: solid 4.5px;
+    width: 109px;
     margin: auto;
 }
 
@@ -467,10 +469,80 @@ margin: auto;
 }
 
 .section3 h1 {
-    padding-top: 30px;
-    font-weight: 900;
-    font-size: 28px;
-    border-bottom: solid 3px black;
-    width: 88px;
+    padding-top: 50px;
+    color: #444;
+    font-weight: 550;
+    font-size: 40px;
+    border-bottom: solid 4.5px #444;
+    width: 150px;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* section4 */
+.section4 {
+    background-color: #252934;
+    height: 700px;
+}
+
+ #flag {
+    border-top: 70px solid #F5F5F5;
+    border-left: 759px solid transparent;
+    border-right: 759px solid transparent;
+  }
+
+.section4 h1 {
+    padding-top: 100px;
+    padding-bottom: 5px;
+    color: #F5F5F5;
+    font-weight: 550;
+    font-size: 38px;
+    border-bottom: solid 4.5px #F5F5F5;
+    width: 185px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section4 p {
+    color: #05BEC5;
+    padding-top: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 35%;
+    margin: auto;
+}
+
+input, textarea {
+    background-color: #1E242C;
+    padding: 10px;
+    margin-top: 5px;
+    border: 0px;
+    color: white;
+    outline: none;
+  }
+  textarea {
+      height: 125px;
+  }
+
+  .contact-form button {
+    padding: 9px 20px;
+    font-size: 15px;
+    background-color: transparent;
+    border: white solid 2px;
+    font-weight: 900;
+    color: white;
+    transition: .5s;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
+    width: 120px;
+    margin-left: 412px;
+  }
+
+  .contact-form button:hover {
+    background-color: #04C2C9;
+    border: #04C2C9 solid 2px;
 }
