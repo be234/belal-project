@@ -14,8 +14,9 @@ const Section4 = () => {
                   name="comments" 
                   placeholder="Your message"
                   ></textarea>
-
-        <button type="submit" id="submit">SUBMIT</button> 
+                  <div className="buttondiv">
+                  <button type="submit" id="submit">SUBMIT</button> 
+                  </div>
 
             </form>
         </section>
