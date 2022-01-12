@@ -1,7 +1,10 @@
 const Section4 = () => {
     return ( 
         <section className="section4">
-            <div id="flag"></div>
+              <div className="flex-container">
+                <div id="item1"></div>
+                <div id="item2"></div>
+              </div>
             <h1>CONTACT</h1>
             <p>Have a question or want to work together?</p>
             <form action="" className="contact-form">
