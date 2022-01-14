@@ -25,17 +25,17 @@ const Footer = () => {
 
                     <div class="middle">
               <a class="btn" href="#">
-                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-linkedin-in"></i>
               </a>
               <a class="btn" href="#">
-                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
               </a>
         
               <a class="btn" href="#">
                 <i class="fab fa-instagram"></i>
               </a>
               <a class="btn" href="#">
-                <i class="fab fa-youtube"></i>
+                <i class="fab fa-codepen"></i>
               </a>
          </div>
 
