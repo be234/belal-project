@@ -779,10 +779,9 @@ input, textarea {
 }
 
 .section3 img{
-    max-width: 32%;
-    width: 33%;
+    max-width: 100%;
+    width: 390px;
     height: 300px;
-    transition: all .6s ease-in-out;
 }
 
 .section3 .images {
@@ -794,9 +793,9 @@ input, textarea {
 }
 /*filter CSS */
 
- #fish:checked ~ .images > img:not([class*='fish']),
- #birds:checked ~ .images > img:not([class*='birds']),
- #lion:checked ~ .images > img:not([class*='lion']){
+ #fish:checked ~ .images > div:not([class*='fish']),
+ #birds:checked ~ .images > div:not([class*='birds']),
+ #lion:checked ~ .images > div:not([class*='lion']){
    opacity: 0;
    position: fixed;
 }
@@ -807,5 +806,70 @@ input, textarea {
 #lion:checked ~ .tag3{
     background-color: #E31C6E;      
     color: white;
-    transition: all .7s ease-in-out;
+    transition: all .5s ease-out;
 } 
+
+/* images hover, section3 */
+
+
+.projects-container {
+    position: relative;
+  }
+  
+  .projects-container .image {
+    opacity: 1;
+    transition: .4s ease;
+  }
+  
+  .projects-container .middle {
+    transition: .3s ease-out;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    display: grid;
+    grid-gap: 150px;
+  }
+  
+  .projects-container:hover .image {
+    opacity: 0;
+  }
+  
+  .projects-container:hover .middle {
+    opacity: 1;
+    grid-gap: 10px;
+  
+  }
+
+  .projects-container h2 {
+      font-size: 21px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 500;
+      margin-top: -45px;
+  }
+
+   .projects-container button {
+      padding: 10px 28px;
+      font-size: 17px;
+      background-color: white;
+      border: #e31b6d solid 2px;
+      font-weight: 900;
+      color: black;
+      transition: .3s;
+      font-family: 'Raleway', sans-serif;
+      margin-top: 42px;
+  }
+  
+   button:hover {
+      background-color: #e31b6d;
+      border: #e31b6d solid 2px;
+      color: white;
+  }
+  
+  .projects-container p {
+    color: #e31b6d;
+    margin-top: -20px;
+  }
