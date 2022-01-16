@@ -180,7 +180,7 @@ nav ul li a:hover {
     }
 
     .section1 {
-        height: 820px;
+        height: 845px;
     }
 
  }
@@ -196,12 +196,10 @@ nav ul li a:hover {
 }
 
 .section2 h1 {
-    padding-top: 50px;
+    padding-top: 70px;
     color: #444;
     font-weight: 550;
-    font-size: 35px;
-    border-bottom: solid 4.5px #444;
-    width: 115px;
+    font-size: 38px;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -365,8 +363,6 @@ margin: auto;
     padding-top: 58px;
     font-weight: 550;
     font-size: 33px;
-    border-bottom: solid 4.5px;
-    width: 109px;
     margin: auto;
 }
 
@@ -473,8 +469,6 @@ margin: auto;
     color: #F5F5F5;
     font-weight: 550;
     font-size: 38px;
-    border-bottom: solid 4.5px #F5F5F5;
-    width: 185px;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -752,11 +746,61 @@ input, textarea {
     color: #3b3b3b;
     font-weight: 550;
     font-size: 38px;
-    border-bottom: solid 5px #3b3b3b;
-    width: 198px;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.underline-small {
+    color: #3b3b3b;
+    display: inline-block;
+    position: relative;
+}
+
+.underline-small::after{
+    content: "";
+    height: 4px;
+    width: 35%;
+    background-color: #3b3b3b;
+    position: absolute;
+    left: calc(50% - 17%);
+    bottom: -10px;
+}
+
+/* About h1 underline */
+.underline-small-a {
+    color: #3b3b3b;
+    display: inline-block;
+    position: relative;
+}
+
+.underline-small-a::after{
+    content: "";
+    height: 4px;
+    width: 52%;
+    background-color: #3b3b3b;
+    position: absolute;
+    left: calc(50% - 25%);
+    bottom: -16px;
+}
+
+/* contact h1 underline */
+
+.underline-small-c {
+    color: #3b3b3b;
+    display: inline-block;
+    position: relative;
+}
+
+.underline-small-c::after{
+    content: "";
+    height: 4px;
+    width: 55%;
+    background-color: whitesmoke;
+    position: absolute;
+    left: calc(50% - 26%);
+    bottom: -10px;
+}
+
 
 
 .section3 input{
@@ -775,7 +819,7 @@ input, textarea {
     color: #616161;
     border: 0px solid #E31C6E;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .section3 img{
@@ -814,6 +858,7 @@ input, textarea {
 
 .projects-container {
     position: relative;
+    transition: all .7s ease-out;
   }
   
   .projects-container .image {
@@ -833,6 +878,12 @@ input, textarea {
     display: grid;
     grid-gap: 150px;
   }
+
+  .projects-container .middle p{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .8;
+  }
   
   .projects-container:hover .image {
     opacity: 0;
@@ -847,8 +898,7 @@ input, textarea {
   .projects-container h2 {
       font-size: 21px;
       font-family: Arial, Helvetica, sans-serif;
-      font-weight: 500;
-      margin-top: -45px;
+      font-weight: 600;
   }
 
    .projects-container button {
@@ -872,4 +922,82 @@ input, textarea {
   .projects-container p {
     color: #e31b6d;
     margin-top: -20px;
+  }
+
+  @media (max-width: 658px) {
+      #projects-different-sections {
+          display: flex;
+          padding-top: 40px;
+          padding-bottom: 14px;
+          
+      }
+      
+      .section3 .tag{
+        font-size: 9px;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 14px;
+        padding: 7px 19px;
+        border-radius: 0px;
+    }
+
+    .section3 .images {
+        width: 100%;
+    }
+
+    .section3 img{
+        max-width: 100%;
+        width: 390px;
+        height: 240px;
+    }
+
+    .projects-container .middle {
+        transition: .2s ease-out;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        display: grid;
+        grid-gap: 150px;
+        height: 250px;
+      }
+
+      .projects-container:hover .middle {
+        opacity: 1;
+        grid-gap: 10px;
+        height: 175px;
+      
+      }
+    
+
+      .section3 h1 {
+          font-size: 33px;
+      }
+
+      .section4 h1 {
+        font-size: 33px;
+        padding-top: 70px;
+        margin-bottom: px;
+    }
+
+    
+     .underline-small-c::after{
+         content: "";
+         height: 4px;
+         width: 67%;
+         background-color: whitesmoke;
+         position: absolute;
+         left: calc(50% - 35%);
+         bottom: -10px;
+     }
+
+     .projects-container button {
+         margin-top: 3px;
+     }
+     
+
+    
   }

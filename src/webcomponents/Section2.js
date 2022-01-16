@@ -1,7 +1,7 @@
 const Section2 = () => {
     return ( 
         <section className="section2">
-            <h1>ABOUT</h1>
+            <h1 className="underline-small-a">ABOUT</h1>
             <div className="flex-container">
                 <div className="flex-qualities">
                     <div className="qualities-sub-container"  style={{"margin-bottom": "30px"}}>

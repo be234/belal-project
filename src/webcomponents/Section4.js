@@ -5,7 +5,7 @@ const Section4 = () => {
                 <div id="item1"></div>
                 <div id="item2"></div>
               </div>
-            <h1>CONTACT</h1>
+            <h1 className="underline-small-c">CONTACT</h1>
             <p>Have a question or want to work together?</p>
             <form action="" className="contact-form">
 
