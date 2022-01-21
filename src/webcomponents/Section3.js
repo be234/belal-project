@@ -11,12 +11,10 @@ const Section3 = () => {
             <input type="radio" id="lion" name="button" />
 
 
-            <span data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
             <label className="tag all" for="all">ALL</label>
             <label className="tag tag1" for="fish">HTML/CSS</label>
             <label className="tag tag2" for="birds">REACT-JS</label>
             <label className="tag tag3" for="lion">JAVASCRIPT</label>
-            </span>
             <br/>
 
             <div className="images"  data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
