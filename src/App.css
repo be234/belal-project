@@ -155,6 +155,18 @@ nav ul li a:hover {
     border: #04C2C9 solid 2px;
 }
 
+#arrow {
+    position: relative;
+    font-size: 15pt;
+    margin: 0px -15px -5px 0px;
+    transition: .5s;
+}
+
+#item2:hover #arrow{
+    transform: rotate(90deg);
+
+}
+
 @media (max-width: 952px) {
     .section1-items-container #item1 {
         font-size: 40px;
@@ -968,7 +980,7 @@ input, textarea {
     .section3 img{
         max-width: 100%;
         width: 390px;
-        height: 240px;
+        height: 100%;
     }
 
     .projects-container .middle {
@@ -1318,3 +1330,4 @@ input, textarea {
     }
 
     }
+    

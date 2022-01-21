@@ -3,7 +3,7 @@ import Section3projects from "./section3projects";
 const Section3 = () => {
     return ( 
         <section className="section3">
-            <div><h1 className="underline-small">PROJECTS</h1></div>
+            <div><h1 className="underline-small"  data-aos="fade-left" data-aos-duration="800" data-aos-once="true">PROJECTS</h1></div>
 
             <input type="radio" id="all" name="button" defaultChecked/>
             <input type="radio" id="fish" name="button" />
@@ -11,14 +11,15 @@ const Section3 = () => {
             <input type="radio" id="lion" name="button" />
 
 
-            
+            <span data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
             <label className="tag all" for="all">ALL</label>
             <label className="tag tag1" for="fish">HTML/CSS</label>
             <label className="tag tag2" for="birds">REACT-JS</label>
             <label className="tag tag3" for="lion">JAVASCRIPT</label>
+            </span>
             <br/>
 
-            <div className="images">
+            <div className="images"  data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
             {/* style={{"opacity":"0"}, {"position": "fixed"}} */}
             <div className="projects-container lion"> <img src="https://media.istockphoto.com/photos/coding-software-concept-developer-working-on-code-picture-id1284552053?k=20&m=1284552053&s=612x612&w=0&h=ri2L0d1uKo334hpVXpzQ45x67QALCb0GvFIkYWVqT78="  className="image"/>   <div className="middle"> <div> <h2>ChowNow Discover</h2> <p>JavaScript</p> </div> <div> <label for="all" for="toggle1">LEARN MORE</label> </div> </div> </div>
             <div className="projects-container lion"> <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"  className="image"/>   <div className="middle"> <div> <h2>ChowNow Discover</h2> <p>JavaScript</p> </div> <div> <label for="all" for="toggle2">LEARN MORE</label> </div> </div> </div>

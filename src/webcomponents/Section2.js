@@ -1,28 +1,29 @@
 const Section2 = () => {
     return ( 
         <section className="section2">
-            <h1 className="underline-small-a">ABOUT</h1>
+            <h1 className="underline-small-a"  data-aos="fade-right" data-aos-duration="800" data-aos-once="true">ABOUT</h1>
             <div className="flex-container">
                 <div className="flex-qualities">
                     <div className="qualities-sub-container"  style={{"margin-bottom": "30px"}}>
-                    <div className="quality">
+                    <div className="quality"  data-aos="flip-right" data-aos-duration="800" data-aos-once="true">
                         <img src="https://cdn.shopify.com/s/files/1/2009/8293/products/HG200.jpg?v=1575932424" alt="quality img" />
+                        <span class="iconify" data-icon="mdi mdi-speedometer"></span>
                         <h3>Responsive</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing. </p>
                     </div>
-                    <div className="quality">
+                    <div className="quality"  data-aos="flip-right" data-aos-duration="800" data-aos-once="true">
                         <img src="https://cdn.shopify.com/s/files/1/2009/8293/products/HG200.jpg?v=1575932424" alt="quality img" />
                         <h3>Responsive</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing. </p>
                     </div>
                     </div>
                     <div className="qualities-sub-container">
-                    <div className="quality">
+                    <div className="quality"  data-aos="flip-right" data-aos-duration="800" data-aos-once="true">
                         <img src="https://cdn.shopify.com/s/files/1/2009/8293/products/HG200.jpg?v=1575932424" alt="quality img" />
                         <h3>Responsive</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing. </p>
                     </div>
-                    <div className="quality">
+                    <div className="quality"  data-aos="flip-right" data-aos-duration="800" data-aos-once="true">
                         <img src="https://cdn.shopify.com/s/files/1/2009/8293/products/HG200.jpg?v=1575932424" alt="quality img" />
                         <h3>Responsive</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing. </p>
@@ -31,13 +32,13 @@ const Section2 = () => {
                 </div>
                 <div className="flex-overview">
 
-                    <div className="img-and-text">
+                    <div className="img-and-text" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
                         <img src="https://www.mandarinstone.com/app/uploads/2020/04/Oska-Navy-Matt-Porcelain-Hexagon-Swatch-Oct-2020.jpg" alt="quality img" />
                         <h3>Who's this guy?</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing. dummy text of the printing. </p>
                     </div>
 
-                    <div className="flex-skills">
+                    <div className="flex-skills"  data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
                         <div class="progress-bar-container">
                         
                         <div class="progress-bar">
