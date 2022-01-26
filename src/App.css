@@ -1,6 +1,5 @@
 /* imports */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Raleway:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Raleway:wght@300&display=swap');
 /* html */
 html {
   scroll-behavior: smooth;
@@ -241,6 +240,7 @@ nav ul li a:hover {
 
 .quality h3 {
     font-size: 23px;
+    color: #222222;
 }
 
 .flex-overview {
@@ -414,6 +414,7 @@ margin: auto;
         height: 20px;
         width: 70px;
         margin-top: 0px;
+        line-height: 2;
         }
         
         .item2 h2 {
@@ -945,7 +946,7 @@ input, textarea {
     margin-top: 42px;
 }
 
- label:hover {
+ .section3 label:hover {
     background-color: #e31b6d;
     border: #e31b6d solid 2px;
     color: white;

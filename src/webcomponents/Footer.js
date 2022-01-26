@@ -23,7 +23,7 @@ const Footer = () => {
                  </svg></a></div>
 
 
-                    <div class="middle" data-aos="flip-up" data-aos-duration="800" data-aos-once="true">
+                    <div class="middle" data-aos="" data-aos-duration="800" data-aos-once="true">
               <a class="btn" href="#">
                 <i class="fab fa-linkedin-in"></i>
               </a>

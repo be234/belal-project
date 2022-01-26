@@ -8,31 +8,31 @@ const Section2 = () => {
                     <div className="quality"  data-aos="flip-right" data-aos-duration="800" data-aos-once="true">
                         <img src="https://cdn.shopify.com/s/files/1/2009/8293/products/HG200.jpg?v=1575932424" alt="quality img" />
                         <span class="iconify" data-icon="mdi mdi-speedometer"></span>
-                        <h3>Responsive</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing. </p>
+                        <h3>Fast</h3>
+                        <p>Fast load times and lag free interaction, my highest priority. </p>
                     </div>
                     <div className="quality"  data-aos="flip-right" data-aos-duration="800" data-aos-once="true">
                         <img src="https://cdn.shopify.com/s/files/1/2009/8293/products/HG200.jpg?v=1575932424" alt="quality img" />
                         <h3>Responsive</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing. </p>
+                        <p>My layouts will work on any device, big or small. </p>
                     </div>
                     </div>
                     <div className="qualities-sub-container">
                     <div className="quality"  data-aos="flip-right" data-aos-duration="800" data-aos-once="true">
                         <img src="https://cdn.shopify.com/s/files/1/2009/8293/products/HG200.jpg?v=1575932424" alt="quality img" />
-                        <h3>Responsive</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing. </p>
+                        <h3>Intuitive</h3>
+                        <p>Strong preference for easy to use, intuitive UX/UI. </p>
                     </div>
                     <div className="quality"  data-aos="flip-right" data-aos-duration="800" data-aos-once="true">
                         <img src="https://cdn.shopify.com/s/files/1/2009/8293/products/HG200.jpg?v=1575932424" alt="quality img" />
-                        <h3>Responsive</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing. </p>
+                        <h3>Dynamic</h3>
+                        <p>Websites don't have to be static, I love making pages come to life. </p>
                     </div>
                     </div>
                 </div>
                 <div className="flex-overview">
 
-                    <div className="img-and-text" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                    <div className="img-and-text" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">
                     {/* <img src="https://scontent.fcai19-6.fna.fbcdn.net/v/t1.15752-9/271848976_476663260535077_8001872186592145722_n.png?_nc_cat=111&ccb=1-5&_nc_sid=ae9488&_nc_ohc=6ikYozAbCO0AX_JDhrq&_nc_ht=scontent.fcai19-6.fna&oh=03_AVJE5B3p_Axp5Fn1jNufxuVlgMovdWmp6OciTnD0-hPzVQ&oe=6214BFB3" alt="an image" /> */}
                         <img src="https://www.mandarinstone.com/app/uploads/2020/04/Oska-Navy-Matt-Porcelain-Hexagon-Swatch-Oct-2020.jpg" alt="an image" />
                         <h3>Who's this guy?</h3>
@@ -41,7 +41,7 @@ I have serious passion for UI effects, animations and creating intuitive, dynami
 Let's make something special.</p>
                     </div>
 
-                    <div className="flex-skills"  data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                    <div className="flex-skills"  data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
                         <div class="progress-bar-container">
                         
                         <div class="progress-bar">
