@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/belal-project/static/css/main.46afa167.chunk.css",
-    "main.js": "/belal-project/static/js/main.b879c922.chunk.js",
-    "main.js.map": "/belal-project/static/js/main.b879c922.chunk.js.map",
+    "main.css": "/belal-project/static/css/main.f36c26e9.chunk.css",
+    "main.js": "/belal-project/static/js/main.4e23e2cf.chunk.js",
+    "main.js.map": "/belal-project/static/js/main.4e23e2cf.chunk.js.map",
     "runtime-main.js": "/belal-project/static/js/runtime-main.7bd6765c.js",
     "runtime-main.js.map": "/belal-project/static/js/runtime-main.7bd6765c.js.map",
     "static/js/2.98c06919.chunk.js": "/belal-project/static/js/2.98c06919.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.14626a43.chunk.js": "/belal-project/static/js/3.14626a43.chunk.js",
     "static/js/3.14626a43.chunk.js.map": "/belal-project/static/js/3.14626a43.chunk.js.map",
     "index.html": "/belal-project/index.html",
-    "static/css/main.46afa167.chunk.css.map": "/belal-project/static/css/main.46afa167.chunk.css.map",
+    "static/css/main.f36c26e9.chunk.css.map": "/belal-project/static/css/main.f36c26e9.chunk.css.map",
     "static/js/2.98c06919.chunk.js.LICENSE.txt": "/belal-project/static/js/2.98c06919.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7bd6765c.js",
     "static/js/2.98c06919.chunk.js",
-    "static/css/main.46afa167.chunk.css",
-    "static/js/main.b879c922.chunk.js"
+    "static/css/main.f36c26e9.chunk.css",
+    "static/js/main.4e23e2cf.chunk.js"
   ]
 }
