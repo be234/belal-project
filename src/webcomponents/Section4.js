@@ -9,10 +9,11 @@ const Section4 = () => {
             <p  data-aos="fade-up" data-aos-duration="800" data-aos-once="true">Have a question or want to work together?</p>
 
      <div data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
-            <form  method="POST" className="contact-form">
+            <form action="https://formsubmit.co/belalelgebalymoi@gmail.com" method="POST" className="contact-form">
               <input type="hidden" name="_captcha" value="false" />
                <input type="text" id="name" name="name" placeholder="Name" required />
                <input type="email" name="email" id="email" placeholder="Enter email" required />
+               <input type="hidden" name="_next" value="https://be234.github.io/belal-project/" />
                <textarea
                   id="commenting"
                   className="textArea"
