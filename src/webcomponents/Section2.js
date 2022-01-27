@@ -1,6 +1,6 @@
 const Section2 = () => {
     return ( 
-        <section className="section2">
+        <section className="section2" id="section22">
             <h1 className="underline-small-a"  data-aos="fade-right" data-aos-duration="800" data-aos-once="true">ABOUT</h1>
             <div className="flex-container">
                 <div className="flex-qualities">

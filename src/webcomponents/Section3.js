@@ -3,8 +3,9 @@ import Section3projects from "./section3projects";
 const Section3 = () => {
     return ( 
         <section className="section3">
-            <div><h1 className="underline-small"  data-aos="fade-left" data-aos-duration="800" data-aos-once="true">PROJECTS</h1></div>
+                        <div id="section3"></div>
 
+            <div><h1 className="underline-small"  data-aos="fade-left" data-aos-duration="800" data-aos-once="true">PROJECTS</h1></div>
             <input type="radio" id="all" name="button" defaultChecked/>
             <input type="radio" id="fish" name="button" />
             <input type="radio" id="birds" name="button" />

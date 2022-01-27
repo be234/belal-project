@@ -50,7 +50,7 @@ nav ul li a:hover {
     color: white;
     float: right;
     line-height: 50px;
-    margin-right: 40px;
+    margin-right: 18px;
     cursor: pointer;
     display: none;
 }
@@ -177,6 +177,22 @@ nav ul li a:hover {
         font-size: 22px;
     }
 
+    nav {
+        position: fixed;
+        top: 0;
+        background-color: #1B242F;
+        height: 50px;
+        width: 100%;
+        border-bottom: 2.5px #04C2C9 solid;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+      }
+
 }
 
 @media (max-width: 658px) { 
@@ -191,7 +207,7 @@ nav ul li a:hover {
     }
 
     .section1 {
-        height: 845px;
+        height: 815px;
     }
 
  }
@@ -366,7 +382,7 @@ margin: auto;
 @media (max-width: 658px) {
 
     .section2 {
-       margin-top: 55px;
+       margin-top: 0px;
        width: 100%;
        height: 1352px;
    }
@@ -753,6 +769,20 @@ input, textarea {
     text-align: center;
 }
 
+#section3 {
+position: absolute;
+width: 30px;
+height: 30px;
+background-color: transparent;
+top: 1950px;
+}
+
+@media (max-width: 658px) { 
+    #section3 {
+        top: 2120px;
+    }
+}
+
 .section3 h1 {
     padding-top: 25px;
     padding-bottom: 5px;
@@ -982,6 +1012,9 @@ input, textarea {
         max-width: 100%;
         width: 390px;
         height: 100%;
+    }
+    .projects-container {
+        height: 260px;
     }
 
     .projects-container .middle {
