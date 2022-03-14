@@ -7,7 +7,7 @@ const Navbar = () => {
             <i className="fas fa-bars"></i>
         </label>
       <ul  id="section2">
-          <li><a href="#section1" style={{"color": "#D62139"}}>HOME</a></li>
+          <li><a href="#section1">HOME</a></li>
           <li><a href="#section22">ABOUT</a></li>
           <li><a href="#section3">PORTFOLIO</a></li>
           <li><a href="#section4">CONTACT</a></li>
