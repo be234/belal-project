@@ -1,3 +1,11 @@
+import tributeimage from "../images/tributepageimg1.png";
+import quotesimg from "../images/qoutesimg1.png";
+import audioimg from "../images/audioimg1.png";
+import docimg from "../images/documentationalimg1.png";
+import landingimg from "../images/landingimg1.png";
+import surveyimg from "../images/surveyimg.png";
+import galleryimg from "../images/galleryimg1.png";
+
 const Section3projects = () => {
     return ( 
         <div className="section3projects">
@@ -16,12 +24,12 @@ const Section3projects = () => {
 {/* tab 1 */}
         <span id="content1">
           <div class="showed-div">
-            <img src="https://media.istockphoto.com/photos/coding-software-concept-developer-working-on-code-picture-id1284552053?k=20&m=1284552053&s=612x612&w=0&h=ri2L0d1uKo334hpVXpzQ45x67QALCb0GvFIkYWVqT78=" alt="project image" />
+            <img src={quotesimg} alt="project image" />
             <h1>WalkerTracker</h1>
             <h5>PERFORMANCE METRICS.</h5>
             <hr />
             <p>Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.</p>
-            <a href="google.com" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
+            <a href="https://be234.github.io/quotes-machine/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
             <label for="toggle0"><span class="iconify" data-icon="mdi:close"></span></label>
             <input type="radio" id="toggle0" name="toggle" />
 
@@ -33,13 +41,13 @@ const Section3projects = () => {
 {/* tab 2 */}
           <span id="content2">
           <div class="showed-div">
-            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="project image" />
+            <img src={audioimg} alt="project image" />
             <h1>WalkerTracker</h1>
             <h5>PERFORMANCE METRICS.</h5>
             <hr />
             <p>Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.</p>
             <input type="radio" id="toggle0" name="toggle" />
-            <a href="google.com" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
+            <a href="https://be234.github.io/Audio-buttons/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
             <label for="toggle0"><span className="iconify close-iconify" data-icon="mdi:close"></span></label>
 
           </div>
@@ -69,13 +77,13 @@ const Section3projects = () => {
 {/* tab 4 */}
 <span id="content4">
           <div class="showed-div">
-            <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="project image" />
+            <img src={galleryimg} alt="project image" />
             <h1>WalkerTracker</h1>
             <h5>PERFORMANCE METRICS.</h5>
             <hr />
             <p>Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.</p>
             <input type="radio" id="toggle0" name="toggle" />
-            <a href="google.com" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
+            <a href="https://be234.github.io/photography-project/#/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
             <label for="toggle0"><span class="iconify" data-icon="mdi:close"></span></label>
             
           </div>
@@ -106,13 +114,13 @@ const Section3projects = () => {
 {/* tab 6 */}
 <span id="content6">
           <div class="showed-div">
-            <img src="https://images.unsplash.com/photo-1591696205602-2f950c417cb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="project image" />
-            <h1>WalkerTracker</h1>
+            <img src={docimg} alt="project image" />
+            <h1>Documentationl Page</h1>
             <h5>PERFORMANCE METRICS.</h5>
             <hr />
             <p>Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.</p>
             <input type="radio" id="toggle0" name="toggle" />
-            <a href="google.com" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
+            <a href="https://be234.github.io/Documentation-page/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
             <label for="toggle0"><span class="iconify" data-icon="mdi:close"></span></label>
             
           </div>
@@ -124,13 +132,13 @@ const Section3projects = () => {
 {/* tab 7 */}
 <span id="content7">
           <div class="showed-div">
-            <img src="https://images.unsplash.com/photo-1563986768711-b3bde3dc821e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1168&q=80" alt="project image" />
+            <img src={tributeimage} alt="project image" />
             <h1>WalkerTracker</h1>
             <h5>PERFORMANCE METRICS.</h5>
             <hr />
             <p>Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.</p>
             <input type="radio" id="toggle0" name="toggle" />
-            <a href="google.com" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
+            <a href="https://be234.github.io/tribute-page/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
             <label for="toggle0"><span class="iconify" data-icon="mdi:close"></span></label>
             
           </div>
@@ -142,13 +150,13 @@ const Section3projects = () => {
 {/* tab 8 */}
 <span id="content8">
           <div class="showed-div">
-            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1115&q=80" alt="project image" />
+            <img src={landingimg} alt="project image" />
             <h1>WalkerTracker</h1>
             <h5>PERFORMANCE METRICS.</h5>
             <hr />
             <p>Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.</p>
             <input type="radio" id="toggle0" name="toggle" />
-            <a href="google.com" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
+            <a href="https://be234.github.io/landing-page/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
             <label for="toggle0"><span class="iconify" data-icon="mdi:close"></span></label>
             
           </div>
@@ -160,13 +168,13 @@ const Section3projects = () => {
 {/* tab 9 */}
 <span id="content9">
           <div class="showed-div">
-            <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="project image" />
+            <img src={surveyimg} alt="project image" />
             <h1>WalkerTracker</h1>
             <h5>PERFORMANCE METRICS.</h5>
             <hr />
             <p>Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.</p>
             <input type="radio" id="toggle0" name="toggle" />
-            <a href="google.com" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
+            <a href="https://be234.github.io/fake-spotify-survey-form/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
             <label for="toggle0"><span class="iconify" data-icon="mdi:close"></span></label>
             
           </div>

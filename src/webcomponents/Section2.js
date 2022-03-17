@@ -1,3 +1,8 @@
+import speedmeter from "../images/speedmeter2.png";
+import intuitive from "../images/intuitive1.png";
+import responsive from "../images/responsive1.png";
+import dynamic from "../images/dynamic1.png";
+// import me from "../images/me.png";
 
 const Section2 = () => {
     return ( 
@@ -7,24 +12,24 @@ const Section2 = () => {
                 <div className="flex-qualities">
                     <div className="qualities-sub-container"  style={{"margin-bottom": "30px"}}>
                     <div className="quality"  data-aos="flip-right" data-aos-duration="800" data-aos-once="true">
-                        <img src="https://scontent.fcai19-6.fna.fbcdn.net/v/t1.15752-9/275550090_1128479021052609_5016499469880780077_n.png?_nc_cat=111&ccb=1-5&_nc_sid=ae9488&_nc_ohc=o0_i5f8P1VQAX_4Dmjm&_nc_ht=scontent.fcai19-6.fna&oh=03_AVKbfHjzR26lBeMG29aaDkf0hthkR8KhN0YsZKB-s2biMw&oe=6254BC05" alt="quality img" />
+                        <img src={speedmeter} alt="quality img" />
                         <h3>Fast</h3>
                         <p>Fast load times and lag free interaction, my highest priority. </p>
                     </div>
                     <div className="quality"  data-aos="flip-right" data-aos-duration="800" data-aos-once="true">
-                        <img src="https://scontent.fcai19-6.fna.fbcdn.net/v/t1.15752-9/275498315_1051751675406006_3050839052783864967_n.png?_nc_cat=111&ccb=1-5&_nc_sid=ae9488&_nc_ohc=9_Q-ZLG6mZwAX_FIxQG&_nc_ht=scontent.fcai19-6.fna&oh=03_AVIlnAy4Lf88oJpxbxqvKVZ-77bKKlArkOpO3zQw50sUnA&oe=6254D750" alt="quality img" />
+                        <img src={responsive} alt="quality img" />
                         <h3>Responsive</h3>
                         <p>My layouts will work on any device, big or small. </p>
                     </div>
                     </div>
                     <div className="qualities-sub-container">
                     <div className="quality"  data-aos="flip-right" data-aos-duration="800" data-aos-once="true">
-                        <img src="https://scontent.fcai19-6.fna.fbcdn.net/v/t1.15752-9/275675131_520703289410598_8383844323150084677_n.png?_nc_cat=101&ccb=1-5&_nc_sid=ae9488&_nc_ohc=4K63HXlwEfUAX-bXe7M&_nc_ht=scontent.fcai19-6.fna&oh=03_AVJS2MlKvFf5ayKoVFP_aGv0_CDJEPOKUCObzRXC94j0-A&oe=625576C5" alt="quality img" />
+                        <img src={intuitive} alt="quality img" />
                         <h3>Intuitive</h3>
                         <p>Strong preference for easy to use, intuitive UX/UI. </p>
                     </div>
                     <div className="quality"  data-aos="flip-right" data-aos-duration="800" data-aos-once="true">
-                        <img src="https://scontent.fcai19-6.fna.fbcdn.net/v/t1.15752-9/275528747_404096528055115_8162816082678870705_n.png?_nc_cat=101&ccb=1-5&_nc_sid=ae9488&_nc_ohc=Slk2FHM-cuAAX_nFYe4&_nc_ht=scontent.fcai19-6.fna&oh=03_AVJ9IfGH2fgM9h8hWlDOMIH1tAHZkS5QRec-E1K80yqIAA&oe=62550698" alt="quality img" />
+                        <img src={dynamic} alt="quality img" />
                         <h3>Dynamic</h3>
                         <p>Websites don't have to be static, I love making pages come to life. </p>
                     </div>
