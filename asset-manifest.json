@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/belal-project/static/css/main.018479bc.chunk.css",
-    "main.js": "/belal-project/static/js/main.a3b6f6a1.chunk.js",
-    "main.js.map": "/belal-project/static/js/main.a3b6f6a1.chunk.js.map",
+    "main.js": "/belal-project/static/js/main.5ca15a1b.chunk.js",
+    "main.js.map": "/belal-project/static/js/main.5ca15a1b.chunk.js.map",
     "runtime-main.js": "/belal-project/static/js/runtime-main.7bd6765c.js",
     "runtime-main.js.map": "/belal-project/static/js/runtime-main.7bd6765c.js.map",
     "static/js/2.98c06919.chunk.js": "/belal-project/static/js/2.98c06919.chunk.js",
@@ -11,12 +11,23 @@
     "static/js/3.14626a43.chunk.js.map": "/belal-project/static/js/3.14626a43.chunk.js.map",
     "index.html": "/belal-project/index.html",
     "static/css/main.018479bc.chunk.css.map": "/belal-project/static/css/main.018479bc.chunk.css.map",
-    "static/js/2.98c06919.chunk.js.LICENSE.txt": "/belal-project/static/js/2.98c06919.chunk.js.LICENSE.txt"
+    "static/js/2.98c06919.chunk.js.LICENSE.txt": "/belal-project/static/js/2.98c06919.chunk.js.LICENSE.txt",
+    "static/media/audioimg1.4d901387.png": "/belal-project/static/media/audioimg1.4d901387.png",
+    "static/media/documentationalimg1.5ddb8a9c.png": "/belal-project/static/media/documentationalimg1.5ddb8a9c.png",
+    "static/media/dynamic1.9cefa7a9.png": "/belal-project/static/media/dynamic1.9cefa7a9.png",
+    "static/media/galleryimg1.d030a2f3.png": "/belal-project/static/media/galleryimg1.d030a2f3.png",
+    "static/media/intuitive1.3f4ef865.png": "/belal-project/static/media/intuitive1.3f4ef865.png",
+    "static/media/landingimg1.525af5ff.png": "/belal-project/static/media/landingimg1.525af5ff.png",
+    "static/media/qoutesimg1.dd5c0932.png": "/belal-project/static/media/qoutesimg1.dd5c0932.png",
+    "static/media/responsive1.98397880.png": "/belal-project/static/media/responsive1.98397880.png",
+    "static/media/speedmeter2.f24a6e16.png": "/belal-project/static/media/speedmeter2.f24a6e16.png",
+    "static/media/surveyimg.35499c7e.png": "/belal-project/static/media/surveyimg.35499c7e.png",
+    "static/media/tributepageimg1.4c9b9944.png": "/belal-project/static/media/tributepageimg1.4c9b9944.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7bd6765c.js",
     "static/js/2.98c06919.chunk.js",
     "static/css/main.018479bc.chunk.css",
-    "static/js/main.a3b6f6a1.chunk.js"
+    "static/js/main.5ca15a1b.chunk.js"
   ]
 }
