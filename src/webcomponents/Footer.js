@@ -24,17 +24,19 @@ const Footer = () => {
 
 
                     <div class="middle" data-aos="" data-aos-duration="800" data-aos-once="true">
-              <a class="btn" href="#">
+
+              <a class="btn" href="https://github.com/be234" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              
+              <a class="btn" href="#" target="_blank">
                 <i class="fab fa-linkedin-in"></i>
               </a>
-              <a class="btn" href="#">
-                <i class="fab fa-facebook-f"></i>
-              </a>
         
-              <a class="btn" href="#">
+              <a class="btn" href="#" target="_blank">
                 <i class="fab fa-instagram"></i>
               </a>
-              <a class="btn" href="#">
+              <a class="btn" href="https://codepen.io/Belal-Elgebaly" target="_blank">
                 <i class="fab fa-codepen"></i>
               </a>
          </div>

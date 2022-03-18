@@ -25,10 +25,10 @@ const Section3projects = () => {
         <span id="content1">
           <div class="showed-div">
             <img src={quotesimg} alt="project image" />
-            <h1>WalkerTracker</h1>
-            <h5>PERFORMANCE METRICS.</h5>
+            <h1>Quotes Machine</h1>
+            <h5>FAMOUS QUOTES FROM GAME OF THRONES.</h5>
             <hr />
-            <p>Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.</p>
+            <p>This Quotes Machine/Generator runs on JavaScript and generates random quotes of the famous series game of thrones.</p>
             <a href="https://be234.github.io/quotes-machine/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
             <label for="toggle0"><span class="iconify" data-icon="mdi:close"></span></label>
             <input type="radio" id="toggle0" name="toggle" />
@@ -42,10 +42,10 @@ const Section3projects = () => {
           <span id="content2">
           <div class="showed-div">
             <img src={audioimg} alt="project image" />
-            <h1>WalkerTracker</h1>
-            <h5>PERFORMANCE METRICS.</h5>
+            <h1>Audio Clips</h1>
+            <h5>FAMOUS MOVIES AUDIO CLIPS.</h5>
             <hr />
-            <p>Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.</p>
+            <p>A simple page with audio buttons and each button plays an audio clip of movies you surely have watched.</p>
             <input type="radio" id="toggle0" name="toggle" />
             <a href="https://be234.github.io/Audio-buttons/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
             <label for="toggle0"><span className="iconify close-iconify" data-icon="mdi:close"></span></label>
@@ -78,10 +78,10 @@ const Section3projects = () => {
 <span id="content4">
           <div class="showed-div">
             <img src={galleryimg} alt="project image" />
-            <h1>WalkerTracker</h1>
-            <h5>PERFORMANCE METRICS.</h5>
+            <h1>Flexible Gallery</h1>
+            <h5>GEBALY Gallery.</h5>
             <hr />
-            <p>Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.</p>
+            <p>A gallery built with react, scss and other features, it's responsive to all devices, it has various sections containing pictures from nature to sports.</p>
             <input type="radio" id="toggle0" name="toggle" />
             <a href="https://be234.github.io/photography-project/#/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
             <label for="toggle0"><span class="iconify" data-icon="mdi:close"></span></label>
@@ -116,9 +116,9 @@ const Section3projects = () => {
           <div class="showed-div">
             <img src={docimg} alt="project image" />
             <h1>Documentationl Page</h1>
-            <h5>PERFORMANCE METRICS.</h5>
+            <h5>GAME OF THRONES CHARACTERS.</h5>
             <hr />
-            <p>Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.</p>
+            <p>This documentational site contains information regarding the famous series Game Of Thrones Characters, and an overview of each main character.</p>
             <input type="radio" id="toggle0" name="toggle" />
             <a href="https://be234.github.io/Documentation-page/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
             <label for="toggle0"><span class="iconify" data-icon="mdi:close"></span></label>
@@ -133,10 +133,10 @@ const Section3projects = () => {
 <span id="content7">
           <div class="showed-div">
             <img src={tributeimage} alt="project image" />
-            <h1>WalkerTracker</h1>
-            <h5>PERFORMANCE METRICS.</h5>
+            <h1>Tribute Page</h1>
+            <h5>OVERVIEW OF TOM HANKS.</h5>
             <hr />
-            <p>Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.</p>
+            <p>This Tribute page contains some of the greatest movies Tom Hanks has performed, also about an introduction of this career, as he was one of the most successful actors in this century!</p>
             <input type="radio" id="toggle0" name="toggle" />
             <a href="https://be234.github.io/tribute-page/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
             <label for="toggle0"><span class="iconify" data-icon="mdi:close"></span></label>
@@ -151,12 +151,12 @@ const Section3projects = () => {
 <span id="content8">
           <div class="showed-div">
             <img src={landingimg} alt="project image" />
-            <h1>WalkerTracker</h1>
-            <h5>PERFORMANCE METRICS.</h5>
+            <h1>Landing Page</h1>
+            <h5>GUITAR LANDING PAGE.</h5>
             <hr />
-            <p>Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.</p>
+            <p>A simple landing page layout for selling guitars. It's responsive to all devices and pretty simple.</p>
             <input type="radio" id="toggle0" name="toggle" />
-            <a href="https://be234.github.io/landing-page/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
+            <a href="https://be234.github.io/Guitar-landing-page/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
             <label for="toggle0"><span class="iconify" data-icon="mdi:close"></span></label>
             
           </div>
@@ -169,10 +169,10 @@ const Section3projects = () => {
 <span id="content9">
           <div class="showed-div">
             <img src={surveyimg} alt="project image" />
-            <h1>WalkerTracker</h1>
-            <h5>PERFORMANCE METRICS.</h5>
+            <h1>Survey Form</h1>
+            <h5>A SPOTIFY SURVEY FORM.</h5>
             <hr />
-            <p>Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.</p>
+            <p>Spotify Survey Form designed to get users experiece about the app, it inlcudes radio buttons, checkboxes, textarea and more.</p>
             <input type="radio" id="toggle0" name="toggle" />
             <a href="https://be234.github.io/fake-spotify-survey-form/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
             <label for="toggle0"><span class="iconify" data-icon="mdi:close"></span></label>

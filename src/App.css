@@ -243,6 +243,7 @@ nav ul li a:hover {
     margin-bottom: 90px;
 }
 
+
 .quality img{
     width: 120px;
     margin-bottom: -20px;
@@ -262,20 +263,28 @@ nav ul li a:hover {
 .flex-overview {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
 }
 
-.flex-overview {
-width: 80%;
-margin: auto;
+@media (min-width: 858px) and (max-width: 1325px) {
+    .flex-overview {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        margin: auto;
+    }
 }
+
 
 .flex-overview img {
     width: 280px;
 }
 
 .flex-overview p {
-    width: 400px;
+    width: 80%;
     font-size: 16px;
     margin-top: -10px;
     color: gray;
@@ -288,7 +297,7 @@ margin: auto;
 }
 
 .img-and-text {
-    width: 500px;
+    width: 40%;
     text-align: center;
 }
 
@@ -376,10 +385,9 @@ margin: auto;
             width: 100%;
         }
 
-        
-@media (max-width: 952px) {}
 
-@media (max-width: 658px) {
+
+@media (max-width: 1013px) {
 
     .section2 {
        margin-top: 0px;
@@ -398,14 +406,14 @@ margin: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        width: 100%;
+        width: 90%;
     }
 
     .flex-qualities {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         margin: auto;
         margin-bottom: 90px;
     }
@@ -437,7 +445,7 @@ margin: auto;
         color: transparent;
         background: #eee;
         height: 20px;
-        width: 40px;
+        width: 100%;
         margin-top: 0px;
         }
 
@@ -471,7 +479,7 @@ margin: auto;
 }
 
 .flex-overview img {
-    width: 230px;
+    width: 200px;
 }
 
 .flex-container {
