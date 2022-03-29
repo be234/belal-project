@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/belal-project/static/css/main.424f16fa.chunk.css",
-    "main.js": "/belal-project/static/js/main.936c6374.chunk.js",
-    "main.js.map": "/belal-project/static/js/main.936c6374.chunk.js.map",
+    "main.css": "/belal-project/static/css/main.aca862ee.chunk.css",
+    "main.js": "/belal-project/static/js/main.6177c5a8.chunk.js",
+    "main.js.map": "/belal-project/static/js/main.6177c5a8.chunk.js.map",
     "runtime-main.js": "/belal-project/static/js/runtime-main.7bd6765c.js",
     "runtime-main.js.map": "/belal-project/static/js/runtime-main.7bd6765c.js.map",
     "static/js/2.98c06919.chunk.js": "/belal-project/static/js/2.98c06919.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.14626a43.chunk.js": "/belal-project/static/js/3.14626a43.chunk.js",
     "static/js/3.14626a43.chunk.js.map": "/belal-project/static/js/3.14626a43.chunk.js.map",
     "index.html": "/belal-project/index.html",
-    "static/css/main.424f16fa.chunk.css.map": "/belal-project/static/css/main.424f16fa.chunk.css.map",
+    "static/css/main.aca862ee.chunk.css.map": "/belal-project/static/css/main.aca862ee.chunk.css.map",
     "static/js/2.98c06919.chunk.js.LICENSE.txt": "/belal-project/static/js/2.98c06919.chunk.js.LICENSE.txt",
     "static/media/audiobuttons.fcde42fd.png": "/belal-project/static/media/audiobuttons.fcde42fd.png",
     "static/media/audioimg1.4d901387.png": "/belal-project/static/media/audioimg1.4d901387.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.7bd6765c.js",
     "static/js/2.98c06919.chunk.js",
-    "static/css/main.424f16fa.chunk.css",
-    "static/js/main.936c6374.chunk.js"
+    "static/css/main.aca862ee.chunk.css",
+    "static/js/main.6177c5a8.chunk.js"
   ]
 }
