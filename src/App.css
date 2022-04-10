@@ -149,6 +149,10 @@ nav ul li a:hover {
     font-family: 'Raleway', sans-serif;
 }
 
+#item2 button:hover {
+    background-color: #04C2C9;
+    border: #04C2C9 solid 2px;
+}
 
 #arrow {
     position: relative;
@@ -157,7 +161,10 @@ nav ul li a:hover {
     transition: .5s;
 }
 
+#item2:hover #arrow{
+    transform: rotate(90deg);
 
+}
 
 @media (max-width: 952px) {
     .section1-items-container #item1 {
