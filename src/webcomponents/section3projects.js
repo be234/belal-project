@@ -29,8 +29,10 @@ const Section3projects = () => {
             <h5>FAMOUS QUOTES FROM GAME OF THRONES.</h5>
             <hr />
             <p>This Quotes Machine/Generator runs on JavaScript and generates random quotes of the famous series game of thrones.</p>
-            <a href="https://be234.github.io/quotes-machine/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
+            <div className="close-view-site">
+ <a href="https://be234.github.io/quotes-machine/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
             <label for="toggle0"><span class="iconify" data-icon="mdi:close"></span></label>
+           </div>
             <input type="radio" id="toggle0" name="toggle" />
 
           </div>
@@ -47,9 +49,10 @@ const Section3projects = () => {
             <hr />
             <p>A simple page with audio buttons and each button plays an audio clip of movies you surely have watched.</p>
             <input type="radio" id="toggle0" name="toggle" />
-            <a href="https://be234.github.io/Audio-buttons/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
+            <div className="close-view-site">
+<a href="https://be234.github.io/Audio-buttons/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
             <label for="toggle0"><span className="iconify close-iconify" data-icon="mdi:close"></span></label>
-
+</div>
           </div>
           <label for="toggle0" id="close-tabs"></label>
           <span id="content0"></span>
@@ -83,8 +86,10 @@ const Section3projects = () => {
             <hr />
             <p>A gallery built with react, scss and other features, it's responsive to all devices, it has various sections containing pictures from nature to sports.</p>
             <input type="radio" id="toggle0" name="toggle" />
+            <div className="close-view-site">
             <a href="https://be234.github.io/photography-project/#/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
             <label for="toggle0"><span class="iconify" data-icon="mdi:close"></span></label>
+            </div>
             
           </div>
           <label for="toggle0" id="close-tabs"></label>
@@ -119,10 +124,17 @@ const Section3projects = () => {
             <h5>GAME OF THRONES CHARACTERS.</h5>
             <hr />
             <p>This documentational site contains information regarding the famous series Game Of Thrones Characters, and an overview of each main character.</p>
-            <input type="radio" id="toggle0" name="toggle" />
-            <a href="https://be234.github.io/Documentation-page/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
-            <label for="toggle0"><span class="iconify" data-icon="mdi:close"></span></label>
             
+            <div className="close-view-site">
+            <a href="https://be234.github.io/Documentation-page/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
+            
+            <label for="toggle0"><span class="iconify" data-icon="mdi:close"></span></label>
+            </div>
+            
+            <input type="radio" id="toggle0" name="toggle" />
+
+
+
           </div>
           <label for="toggle0" id="close-tabs"></label>
           <span id="content0"></span>
@@ -138,9 +150,12 @@ const Section3projects = () => {
             <hr />
             <p>This Tribute page contains some of the greatest movies Tom Hanks has performed, also about an introduction of this career, as he was one of the most successful actors in this century!</p>
             <input type="radio" id="toggle0" name="toggle" />
+
+            <div className="close-view-site">
             <a href="https://be234.github.io/tribute-page/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
             <label for="toggle0"><span class="iconify" data-icon="mdi:close"></span></label>
-            
+            </div>
+
           </div>
           <label for="toggle0" id="close-tabs"></label>
           <span id="content0"></span>
@@ -156,9 +171,11 @@ const Section3projects = () => {
             <hr />
             <p>A simple landing page layout for selling guitars. It's responsive to all devices and pretty simple.</p>
             <input type="radio" id="toggle0" name="toggle" />
+            
+            <div className="close-view-site">
             <a href="https://be234.github.io/Guitar-landing-page/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
             <label for="toggle0"><span class="iconify" data-icon="mdi:close"></span></label>
-            
+            </div>
           </div>
           <label for="toggle0" id="close-tabs"></label>
           <span id="content0"></span>
@@ -174,8 +191,11 @@ const Section3projects = () => {
             <hr />
             <p>Spotify Survey Form designed to get users experiece about the app, it inlcudes radio buttons, checkboxes, textarea and more.</p>
             <input type="radio" id="toggle0" name="toggle" />
+
+            <div className="close-view-site">
             <a href="https://be234.github.io/fake-spotify-survey-form/" target="_blank" className="view-site-button"><div><span class="iconify" data-icon="mdi:open-in-new"></span></div> <span>VIEW SITE</span></a>
             <label for="toggle0"><span class="iconify" data-icon="mdi:close"></span></label>
+            </div> 
             
           </div>
           <label for="toggle0" id="close-tabs"></label>

@@ -199,6 +199,8 @@ nav ul li a:hover {
     .section1-items-container #item1 {
         font-size: 25px;
         margin: -7px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
     }
 
     #item2 button {
@@ -462,11 +464,12 @@ nav ul li a:hover {
     margin: auto;
 }
 
+
 .quality p {
     margin: auto;
     font-size: 12px;
     margin-top: -8px;
-    width: 90%;
+    width: 150px;
 }
 
 .quality img{
@@ -1183,7 +1186,7 @@ top: 1950px;
      .showed-div {
        position: fixed;
        z-index: 20;
-       width: 46.5%;
+       width: 50%;
        background: #fff;
        top: 0;
        left: 27.5%;
@@ -1253,7 +1256,7 @@ top: 1950px;
       .view-site-button {
         display: flex;
         padding: 9px 17px 9px 17px;
-        margin: 0px 20px 0px 20px;
+        margin: 0px 0px 0px 20px;
         font-size: 11pt;
         background-color: #e31b6d;
         border: #e31b6d solid 0px;
@@ -1275,18 +1278,16 @@ top: 1950px;
          padding-right: 10px;
      }
 
-     @media (max-width: 658px) {
+     @media (max-width: 958px) {
             
      .showed-div {
-        position: fixed;
         z-index: 20;
         width: 82%;
         background: #fff;
-        top: 0;
         left: 9%;
         text-align: left;
         box-shadow: 0px 0px 0px 1000px rgba(0, 0, 0, .4), 0px 0px 10px 1px black ;
-        height: 100%;
+        height: auto;
      }
       
       .showed-div img {
@@ -1311,7 +1312,7 @@ top: 1950px;
        }
        .showed-div p {
          padding-left: 20px;
-         padding-bottom: 30px;
+         padding-bottom: 100px;
          width: 90%;
          font-size: 10pt;
          line-height: 15pt;
@@ -1354,7 +1355,6 @@ top: 1950px;
  
        .view-site-button {
          padding: 10px 20px 10px 20px;
-         margin: 283px 20px 0px 15px;
        }
  
          
@@ -1366,9 +1366,14 @@ top: 1950px;
      .showed-div label {
         float: right;
         padding: 0px 10px 0px 0px;
-        margin-top: 285px;
         font-size: 22pt;
         color: #777;
+    }
+
+    .close-view-site {
+        position: relative;
+        height: 50px;
+        background-color: white;
     }
 
     }
