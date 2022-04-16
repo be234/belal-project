@@ -1,3 +1,5 @@
+import pdf from "../Belal-CV.pdf";
+
 const Footer = () => {
     return ( 
         <section className="footer">
@@ -26,7 +28,7 @@ const Footer = () => {
                     <div class="middle" data-aos="" data-aos-duration="800" data-aos-once="true">
 
                               
-              <a class="btn" href="#" target="_blank">
+              <a class="btn" href={pdf} target="_blank" rel="noreferrer">
                 <i class="fa fa-book"></i>
               </a>
 
