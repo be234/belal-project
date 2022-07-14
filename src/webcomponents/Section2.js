@@ -3,6 +3,7 @@ import intuitive from "../images/intuitive1.png";
 import responsive from "../images/responsive1.png";
 import dynamic from "../images/dynamic1.png";
 import me from "../images/me.png";
+import picofme from "../images/apicofme.png";
 
 const Section2 = () => {
     return ( 
@@ -39,7 +40,8 @@ const Section2 = () => {
 
                     <div className="img-and-text" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">
                         {/* <img src="https://www.mandarinstone.com/app/uploads/2020/04/Oska-Navy-Matt-Porcelain-Hexagon-Swatch-Oct-2020.jpg" alt="an image" /> */}
-                        <img src={me} alt="an image" />
+                        {/* <img src={me} alt="an image" /> */}
+                        <img src={picofme} alt="an image" />
                         <h3>Who's this guy?</h3>
                         <p>I'm a freelance front end developer in Cairo, Egypt.
 I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
