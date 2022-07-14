@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.efec0f99.chunk.css",
-    "main.js": "/static/js/main.c39d010f.chunk.js",
-    "main.js.map": "/static/js/main.c39d010f.chunk.js.map",
+    "main.js": "/static/js/main.927ec2a2.chunk.js",
+    "main.js.map": "/static/js/main.927ec2a2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ba899bf5.js",
     "runtime-main.js.map": "/static/js/runtime-main.ba899bf5.js.map",
     "static/js/2.98c06919.chunk.js": "/static/js/2.98c06919.chunk.js",
@@ -13,6 +13,7 @@
     "static/css/main.efec0f99.chunk.css.map": "/static/css/main.efec0f99.chunk.css.map",
     "static/js/2.98c06919.chunk.js.LICENSE.txt": "/static/js/2.98c06919.chunk.js.LICENSE.txt",
     "static/media/Belal-CV.3735d19b.pdf": "/static/media/Belal-CV.3735d19b.pdf",
+    "static/media/apicofme.1cbc9cbc.png": "/static/media/apicofme.1cbc9cbc.png",
     "static/media/audiobuttons.fcde42fd.png": "/static/media/audiobuttons.fcde42fd.png",
     "static/media/audioimg1.4d901387.png": "/static/media/audioimg1.4d901387.png",
     "static/media/documentationalimg1.5ddb8a9c.png": "/static/media/documentationalimg1.5ddb8a9c.png",
@@ -32,6 +33,6 @@
     "static/js/runtime-main.ba899bf5.js",
     "static/js/2.98c06919.chunk.js",
     "static/css/main.efec0f99.chunk.css",
-    "static/js/main.c39d010f.chunk.js"
+    "static/js/main.927ec2a2.chunk.js"
   ]
 }
